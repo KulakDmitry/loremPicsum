@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="image/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Lorem Picsum</title>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <div>
+          <figure>
+            <img
+              id="header-img-logo"
+              src="image/lorem-logo.svg"
+              alt="lorem-logo"
+              width="42px"
+              height="42px"
+            />
+          </figure>
+          <h1>Lorem Picsum</h1>
+          <h2>The Lorem Ipsum for photos.</h2>
+        </div>
+        <div id="div-header-style">
+          <figure>
+            <img
+              src="image/hotjar-logo.png"
+              alt="hotjar-logo"
+              width="130px"
+              height="100px"
+            />
+            <p>
+              <a
+                href="https://www.hotjar.com/?utm_source=BuySellAds&utm_medium=cpc&utm_campaign=HJ-BuySellAds-CarbonAds-DevCircle-Experiment2021v2f"
+                >Go beyond website analytics and understand what users are
+                really doing</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://www.carbonads.net/?utm_source=picsumphotos&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon"
+                >ADS VIA CARBON</a
+              >
+            </p>
+          </figure>
+        </div>
+      </div>
+      <figure>
+        <img
+          class="img-style"
+          src="image/1.jpg"
+          alt="pictures"
+          width="536px"
+          height="354"
+        />
+      </figure>
+    </header>
+    <main class="flex-box">
+      <div class="easy-to-use">
+        <div>
+          <h1>Easy to use, stylish placeholders</h1>
+          <p>
+            Just add your desired image size (width & height) after our URL, and
+            you'll get a random image.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/426/200/300.jpg?hmac=ATVZT7wbjRxxBKYqLXE043ImnR_uNOkz00T9dWGYuow"
+            >https://picsum.photos/200/300/</a
+          >
+          <p>To get a square image, just add the size.</p>
+          <a
+            href="https://i.picsum.photos/id/914/200/200.jpg?hmac=7y7KxpocRNcNDWaeoHP1QJslAOGqg-BzFfLyqLHTbpM"
+            >https://picsum.photos/200</a
+          >
+        </div>
+      </div>
+      <div class="box-style">
+        <div class="flex-div">
+          <h2>Specific Image</h2>
+          <p>
+            Get a specific image by adding <span> /id/{image} </span>to the
+            start of the url.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+            >https://picsum.photos/id/237/200/300</a
+          >
+          <p>
+            You can find a list of all the images
+            <a id="bg-color" href="https://picsum.photos/images">here.</a>
+          </p>
+        </div>
+        <figure>
+          <img
+            class="img-style"
+            src="image/2.jpg"
+            alt="pictures"
+            width="536px"
+            height="354"
+          />
+        </figure>
+      </div>
+      <div class="box-style box-rtl">
+        <div class="flex-div">
+          <h2>Static Random Image</h2>
+          <p>
+            Get the same random image every time based on a seed, by adding
+            <span> /seed/{seed}</span> to the start of the url.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI"
+            >https://picsum.photos/seed/picsum/200/300</a
+          >
+        </div>
+        <figure>
+          <img
+            class="img-style"
+            src="image/3.jpg"
+            alt="pictures"
+            width="536px"
+            height="354"
+          />
+        </figure>
+      </div>
+      <div class="box-style">
+        <div class="flex-div">
+          <h2>Grayscale</h2>
+          <p>
+            Get a grayscale image by appending <span> ?grayscale</span> to the
+            end of the url.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/999/200/300.jpg?grayscale&hmac=3fT-F91S67k8kFPVEagfc8xPFnZygVIR1oZZ47ICD1k"
+            >https://picsum.photos/200/300?grayscale</a
+          >
+        </div>
+        <figure>
+          <img
+            class="img-style"
+            src="image/4.jpg"
+            alt="pictures"
+            width="536px"
+            height="354"
+          />
+        </figure>
+      </div>
+      <div class="box-style box-rtl">
+        <div class="flex-div">
+          <h2>Blur</h2>
+          <p>
+            Get a blurred image by appending <span> ?blur</span> to the end of
+            the url.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/531/200/300.jpg?blur=5&hmac=v43LZEzlL4avee5yxmwXEl7FrXKARSZ3c9NT_nESFhk"
+            >https://picsum.photos/200/300/?blur</a
+          >
+          <p>
+            You can adjust the amount of blur by providing a number between
+            <span> 1 </span> and <span> 10 </span>.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/350/200/300.jpg?blur=2&hmac=F4uGwppcPc2EnFEeye7laEkttru2YSwmaJ95yn8Aouo"
+            >https://picsum.photos/200/300/?blur=2</a
+          >
+        </div>
+        <figure>
+          <img
+            class="img-style"
+            src="image/5.jpg"
+            alt="pictures"
+            width="536px"
+            height="354"
+          />
+        </figure>
+      </div>
+      <div class="box-style">
+        <div class="flex-div">
+          <h2>Advanced Usage</h2>
+          <p>
+            You may combine any of the options above. For example, to get a
+            specific image that is grayscale and blurred.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/870/200/300.jpg?blur=2&grayscale&hmac=ujRymp644uYVjdKJM7kyLDSsrqNSMVRPnGU99cKl6Vs"
+            >https://picsum.photos/id/870/200/300?grayscale&blur=2</a
+          >
+          <p>
+            To request multiple images of the same size in your browser, add the
+            <span> random </span>query param to prevent the images from being
+            cached:
+          </p>
+
+          <pre id="pre">
+        <code
+          >
+          &ltimg src="https://picsum.photos/200/300?random=1">
+          &ltimg src="https://picsum.photos/200/300?random=2"></code>
+      </pre>
+          <p>
+            If you need a file ending, you can add <span> .jpg </span> to the
+            end of the url.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/450/200/300.jpg?hmac=EAnz3Z3i5qXfaz54l0aegp_-5oN4HTwiZG828ZGD7GM"
+            >https://picsum.photos/200/300.jpg</a
+          >
+          <p>
+            To get an image in the WebP format, you can add
+            <span> .webp </span> to the end of the url.
+          </p>
+          <a
+            href="https://i.picsum.photos/id/929/200/300.webp?hmac=W9VPkZwMLRD1RapEjEqtiL_c8YBIst65zRBxYfgvsaI"
+            >https://picsum.photos/200/300.webp</a
+          >
+        </div>
+        <figure>
+          <img
+            class="img-style"
+            src="image/6.jpg"
+            alt="pictures"
+            width="536px"
+            height="354"
+          />
+        </figure>
+      </div>
+      <div class="box-style box-rtl">
+        <div class="flex-div">
+          <h2>List Images</h2>
+          <p>
+            Get a list of images by using the <span> /v2/list </span> endpoint.
+          </p>
+          <a href="https://picsum.photos/v2/list"
+            >https://picsum.photos/v2/list</a
+          >
+          <p>
+            The API will return 30 items per page by default. To request another
+            page, use the <span> ?page </span> parameter. To change the amount
+            of items per page, use the <span> ?limit </span> parameter.
+          </p>
+          <a href="https://picsum.photos/v2/list?page=2&limit=100"
+            >https://picsum.photos/v2/list?page=2&limit=100</a
+          >
+          <p>
+            The <span> Link </span> header includes pagination information about
+            the next/previous pages
+          </p>
+        </div>
+        <pre class="box-shadow">
+          <code>
+      [
+          {
+              "id": "0",
+              "author": "Alejandro Escamilla",
+              "width": 5616,
+              "height": 3744,
+              "url": "https://unsplash.com/...",
+              "download_url": "https://picsum.photos/..."
+          }
+      ]</code>
+    </pre>
+      </div>
+      <div class="box-style">
+        <div class="flex-div">
+          <h2>Image Details</h2>
+          <p>
+            Get information about a specific image by using the the
+            <span> /id/{id}/info </span> endpoint.
+          </p>
+          <a href="https://picsum.photos/id/0/info"
+            >https://picsum.photos/id/0/info</a
+          >
+          <p>
+            You can find out the ID of an image by looking at the
+            <span> Picsum-ID </span>
+            header, or the <span> User Comment </span> field in the EXIF
+            metadata.
+          </p>
+        </div>
+        <pre class="box-shadow">
+        <code>
+    {
+            "id": "0",
+            "author": "Alejandro Escamilla",
+            "width": 5616,
+            "height": 3744,
+            "url": "https://unsplash.com/...",
+            "download_url": "https://picsum.photos/..."
+    }</code
+        >
+      </pre>
+      </div>
+      <footer class="footer">
+        <div>
+          <a
+            href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=picsum"
+          >
+            <img
+              src="image/digitalocean.svg"
+              alt="digitalocean"
+              width="230px"
+              height="41px"
+            />
+          </a>
+          <a href="https://www.cloudflare.com">
+            <img
+              src="image/cloudflare.svg"
+              alt="cloudflare"
+              width="230px"
+              height="48px"
+            />
+          </a>
+        </div>
+        <div id="style-footer">
+          <p>
+            Created by <a href="https://dmarby.se">David Marby</a> &
+            <a href="https://github.com/Nijikokun">Nijiko Yonskai</a>
+          </p>
+          <a href="https://github.com/DMarby/picsum-photos">Source</a>
+          <p>
+            Having trouble? Poke
+            <a href="https://twitter.com/DMarby">@DMarby</a> on Twitter
+          </p>
+          <p>Images from <a href="https://unsplash.com">Unsplash</a></p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
