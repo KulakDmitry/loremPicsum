@@ -149,14 +149,14 @@ a:hover {
 
 .box-style > div {
   flex: 50%;
-  padding: 0px 30px;
-  margin: 0px;
 }
+
 .box-style > figure {
   flex: 50%;
   padding: 0px 50px;
   margin: 0px;
 }
+
 .box-style > pre {
   flex: 50%;
   margin-bottom: 200px;
