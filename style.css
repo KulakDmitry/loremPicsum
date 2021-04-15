@@ -85,8 +85,6 @@ body {
 }
 
 .easy-to-use {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   font-family: sans-serif;
   background-color: #f4f7fc;
@@ -167,11 +165,7 @@ a:hover {
 }
 
 .box-rtl {
-  display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
-  padding: 100px 70px;
-  margin: 10px;
 }
 
 .box-shadow {
