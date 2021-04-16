@@ -149,6 +149,7 @@ a:hover {
 
 .box-style > div {
   flex: 50%;
+  padding: 0px 50px;
 }
 
 .box-style > figure {
@@ -197,6 +198,5 @@ span {
 .flex-div {
   display: flex;
   flex-direction: column;
-  padding: 0px 50px;
   margin: 0px;
 }
