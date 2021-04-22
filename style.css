@@ -5,7 +5,6 @@
 body {
   margin: 0px;
   width: 100%;
-  max-width: 1600px;
 }
 
 .header {
@@ -87,6 +86,7 @@ body {
 }
 
 .easy-to-use {
+  display: flex;
   text-align: center;
   font-family: sans-serif;
   background-color: #f4f7fc;
