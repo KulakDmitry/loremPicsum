@@ -13,6 +13,10 @@ body {
   padding: 100px;
 }
 
+.header > figure {
+  flex: 50%;
+}
+
 #header-img-logo {
   float: left;
   margin: 10px;
@@ -27,6 +31,7 @@ body {
 .header a {
   text-decoration: none;
   color: #333;
+  font-size: 55%;
 }
 
 .header h1 {
@@ -54,7 +59,7 @@ body {
   margin-left: 40px;
 }
 
-.footer {
+footer {
   display: block;
   flex-direction: column;
   padding: 100px 0;
@@ -65,13 +70,13 @@ body {
   color: darkgrey;
 }
 
-.footer div {
+footer div {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.footer a {
+footer a {
   color: aliceblue;
   text-decoration: none;
 }
@@ -86,7 +91,6 @@ body {
 }
 
 .easy-to-use {
-  display: flex;
   text-align: center;
   font-family: sans-serif;
   background-color: #f4f7fc;
@@ -96,8 +100,7 @@ body {
 .easy-to-use > div {
   display: flex;
   flex-direction: column;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: 0 30%;
 }
 
 .easy-to-use h1 {
@@ -151,13 +154,16 @@ a:hover {
 
 .box-style > div {
   flex: 50%;
-  padding: 0px 50px;
+  /* padding: 0px 10%; */
+  padding-right: 3%;
+  padding-left: 16%;
 }
 
 .box-style > figure {
   flex: 50%;
   padding: 0px 50px;
   margin: 0px;
+  text-align: start;
 }
 
 .box-style > pre {
@@ -171,6 +177,24 @@ a:hover {
   flex-direction: row-reverse;
 }
 
+.box-rtl > figure {
+  text-align: end;
+}
+
+.box-rtl > div {
+  padding-left: 3%;
+  padding-right: 16%;
+}
+
+#code-style-ltr {
+  padding-right: 3%;
+  padding-left: 16%;
+}
+
+#code-style-rtl {
+  padding-right: 16%;
+  padding-left: 3%;
+}
 .box-shadow {
   box-shadow: 0 0 0 1px hsla(240, 30.1%, 28%, 0.05),
     0 2px 5px 0 hsla(240, 30.1%, 28%, 0.1), 0 1px 1px 0 hsla(0, 0%, 0%, 0.07);
